@@ -1,0 +1,171 @@
+#index{
+  font-family: 'Josefin Sans', sans-serif;
+  display: inline;
+  scroll-behavior: smooth;
+
+}
+
+#index .header{
+  display: block;
+  text-align: center;
+  padding: 20px;
+  letter-spacing: 5px;
+  background-color: #fff;
+
+}
+
+#index .navbar{
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  background-color: #d62246;
+  padding: 20px;
+
+
+
+}
+
+#index .navbar a{
+  text-decoration: none;
+  color: #FE938C;
+  padding: 14px 20px;
+
+}
+
+#index .navbar a:hover{
+  transition-duration: 0.5s;
+  color: #303036;
+}
+
+#index .row{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+
+#index .side{
+  flex: 30%;
+
+
+}
+#index .buttons {
+
+    padding: 30px;
+    color: white;
+
+}
+
+#index .buttons button{
+  background-color: white;
+  border-color: #303036;
+  border-style: solid;
+  color: #303036;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  font-size: 20px;
+
+}
+
+#index .buttons :hover{
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  flex-direction: column;
+
+}
+
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+
+.contactInfo{
+  text-align: center;
+  padding: 10px;
+}
+
+.contactInfo form input{
+  margin-bottom: 20px;
+  border-style: solid;
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  padding: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#commentBox{
+
+
+
+}
+
+.contactInfo input[type=submit]{
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+}.contactInfo input[type=reset]{
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.contactInfo input[type=submit], [type=reset] :hover{
+  cursor: pointer;
+}
+
+.footer{
+  float: right;
+  padding: 20px;
+  margin: 0;
+  bottom: 0;
+  position: inherit;
+
+  opacity: 0.5;
+}
+
+.iconLoad{
+  text-align: center;
+  padding-top: 40px;
+
+}
+
+.writingventure{
+  font-size: 20px;
+  word-break: normal;
+  word-spacing: inherit;
+  text-align: center;
+  padding: 40px;
+
+}
+
+.projects{
+  padding-left: 40px;
+}
+
+.imgResp{
+  width: 50%;
+  height: auto;
+}
+
+.team{
+  font-size: 20px;
+}
+
+.pypad{
+  width: 50%;
+  height: auto;
+}
